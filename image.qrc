@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Deck_Pok/arena.jpg</file>
+        <file>../Deck_Pok/card_empty.jpg</file>
+        <file>../../Pictures/pokemon/carapuce.png</file>
+        <file>../../Pictures/pokemon/dracau.jpeg</file>
+        <file>../../Pictures/pokemon/onix.jpg</file>
+        <file>../../Pictures/pokemon/vipe.png</file>
+        <file>../../Pictures/pokemon/fire.png</file>
+    </qresource>
+</RCC>
