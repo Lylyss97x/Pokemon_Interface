@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>911</width>
-    <height>666</height>
+    <width>1169</width>
+    <height>773</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,11 +26,17 @@
       <height>701</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Terminal</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color : white</string>
+     <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tab_card1">
      <attribute name="title">
@@ -41,7 +47,7 @@
        <rect>
         <x>70</x>
         <y>80</y>
-        <width>331</width>
+        <width>321</width>
         <height>451</height>
        </rect>
       </property>
@@ -59,9 +65,15 @@
         <rect>
          <x>30</x>
          <y>360</y>
-         <width>49</width>
+         <width>71</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -75,9 +87,15 @@
         <rect>
          <x>30</x>
          <y>390</y>
-         <width>49</width>
+         <width>81</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -91,9 +109,15 @@
         <rect>
          <x>110</x>
          <y>20</y>
-         <width>91</width>
+         <width>131</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -105,11 +129,17 @@
       <widget class="QLabel" name="label_3">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>70</x>
          <y>280</y>
-         <width>111</width>
-         <height>16</height>
+         <width>181</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -121,11 +151,17 @@
       <widget class="QLabel" name="label_ATK_0">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>130</x>
          <y>360</y>
-         <width>49</width>
+         <width>121</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -137,11 +173,17 @@
       <widget class="QLabel" name="label_DFENSE_0">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>130</x>
          <y>390</y>
-         <width>49</width>
-         <height>16</height>
+         <width>101</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -153,11 +195,17 @@
       <widget class="QLabel" name="label_SPE_ATK_0">
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>88</x>
          <y>320</y>
-         <width>49</width>
-         <height>16</height>
+         <width>131</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -185,6 +233,69 @@
         <string>TextLabel</string>
        </property>
       </widget>
+      <widget class="QSlider" name="horizontalSlider_0">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>250</y>
+         <width>160</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : transparent;</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_0">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>ATTACK</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonSpe_0">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>220</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>SPE ATTACK</string>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_card2">
@@ -200,6 +311,12 @@
         <height>451</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-image :  url(:/Pictures/pokemon/fire.png)</string>
       </property>
@@ -214,9 +331,15 @@
         <rect>
          <x>30</x>
          <y>360</y>
-         <width>49</width>
-         <height>16</height>
+         <width>81</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -230,9 +353,15 @@
         <rect>
          <x>30</x>
          <y>390</y>
-         <width>49</width>
-         <height>16</height>
+         <width>81</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -246,9 +375,15 @@
         <rect>
          <x>110</x>
          <y>20</y>
-         <width>81</width>
+         <width>131</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -260,11 +395,17 @@
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>70</x>
          <y>280</y>
-         <width>111</width>
-         <height>16</height>
+         <width>171</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -276,11 +417,17 @@
       <widget class="QLabel" name="label_ATK_1">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>120</x>
          <y>360</y>
-         <width>49</width>
-         <height>16</height>
+         <width>131</width>
+         <height>21</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -292,11 +439,17 @@
       <widget class="QLabel" name="label_DFENSE_1">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>130</x>
          <y>390</y>
-         <width>49</width>
-         <height>16</height>
+         <width>101</width>
+         <height>21</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -308,11 +461,17 @@
       <widget class="QLabel" name="label_SPE_ATK_1">
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>80</x>
          <y>320</y>
-         <width>49</width>
-         <height>16</height>
+         <width>141</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -340,6 +499,69 @@
         <string>TextLabel</string>
        </property>
       </widget>
+      <widget class="QSlider" name="horizontalSlider_1">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>250</y>
+         <width>160</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : transparent;</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_1">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>ATTACK</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonSpe_1">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>220</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>SPE ATTACK</string>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_card3">
@@ -369,9 +591,15 @@
         <rect>
          <x>30</x>
          <y>360</y>
-         <width>49</width>
-         <height>16</height>
+         <width>71</width>
+         <height>21</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -385,9 +613,15 @@
         <rect>
          <x>30</x>
          <y>390</y>
-         <width>49</width>
-         <height>16</height>
+         <width>81</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -401,9 +635,15 @@
         <rect>
          <x>110</x>
          <y>20</y>
-         <width>81</width>
+         <width>121</width>
          <height>16</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -415,11 +655,18 @@
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>60</x>
          <y>280</y>
-         <width>111</width>
-         <height>16</height>
+         <width>191</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+         <bold>false</bold>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -431,11 +678,17 @@
       <widget class="QLabel" name="label_ATK_2">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>360</y>
-         <width>49</width>
-         <height>16</height>
+         <x>130</x>
+         <y>350</y>
+         <width>111</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -447,11 +700,17 @@
       <widget class="QLabel" name="label_DFENSE_2">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>130</x>
          <y>390</y>
-         <width>49</width>
-         <height>16</height>
+         <width>111</width>
+         <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -463,11 +722,17 @@
       <widget class="QLabel" name="label_SPE_ATK_2">
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>90</x>
          <y>320</y>
-         <width>49</width>
-         <height>16</height>
+         <width>171</width>
+         <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>12</pointsize>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background : transparent;</string>
@@ -495,7 +760,282 @@
         <string>TextLabel</string>
        </property>
       </widget>
+      <widget class="QSlider" name="horizontalSlider_2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>250</y>
+         <width>160</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background : transparent;</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
      </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>ATTACK</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="buttonSpe_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>210</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Terminal</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255))</string>
+      </property>
+      <property name="text">
+       <string>SPE ATTACK</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>430</y>
+      <width>321</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image :  url(:/Pictures/pokemon/fire.png)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>360</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>ATTACK</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>390</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>DEFENSE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Name_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>NAME</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>280</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>SPECIAL ATTACK</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_ATK_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>350</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_DFENSE_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>390</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_SPE_ATK_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>320</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Terminal</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pix_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>241</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>250</y>
+       <width>160</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background : transparent;</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
     </widget>
    </widget>
   </widget>
@@ -504,7 +1044,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>911</width>
+     <width>1169</width>
      <height>21</height>
     </rect>
    </property>

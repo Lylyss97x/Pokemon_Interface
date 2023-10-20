@@ -10,7 +10,7 @@
 //}
 
 
-Pokemon::Pokemon( int id,std::string name, std::string type, int  attack, int defense, int shield, std::string Special_Attack, int idDeck) {
+Pokemon::Pokemon( int id,std::string name, std::string type, int  attack, int defense, int shield, std::string Special_Attack, int idDeck, bool isDie) {
     this->id = id;
     this->name = name;
     this->type = type;
@@ -18,10 +18,15 @@ Pokemon::Pokemon( int id,std::string name, std::string type, int  attack, int de
     this->defense = defense;
     this->shield = shield;
     this->Special_Attack = Special_Attack;
+    this->isDie = isDie;
+
 
 
 };
 
+void Pokemon::PokemonAttacked(){
+    this->hp = hp-10;
+}
 
 void Pokemon :: setName(std::string newName) {
     this->name = newName;
@@ -46,7 +51,6 @@ void  Pokemon::setDefense(int Newdefense) {
 
 void  Pokemon::setShield(int Newshield) {
     this->shield = Newshield;
-
 }
 
  std::string  Pokemon::GetName() {
@@ -62,6 +66,10 @@ std::string  Pokemon::GetSpecialAttack() {
 
 }
 
+bool Pokemon::GetIsDie(){
+    return isDie;
+}
+
 int Pokemon ::GetAttack  () {
     return attack;
 }
@@ -75,6 +83,10 @@ int Pokemon:: GetShield() {
 
 int Pokemon:: GetId() {
     return id;
+}
+
+int Pokemon::GetHp(){
+    return hp;
 }
 
 

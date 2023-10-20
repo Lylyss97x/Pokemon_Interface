@@ -18,6 +18,8 @@ public:
     int PokemonDefense[3];
     int PokemonShield[3];
     std::string PokemonSpe[3];
+    int Pokemonhp[3];
+    bool PokemonDie[3];
     Pokedeck createPoke(int idDeck, Pokedeck myDeck);
 
 

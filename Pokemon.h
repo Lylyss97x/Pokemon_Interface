@@ -16,10 +16,12 @@ private:
     int shield;
     std::string Special_Attack;
     int idDeck;
+    int hp = 100;
+    bool isDie = false;
 
 public:
 
-    Pokemon(int id,std::string name, std::string type, int  attack, int defense, int shield, std::string Special_Attack, int idDeck);
+    Pokemon(int id,std::string name, std::string type, int  attack, int defense, int shield, std::string Special_Attack, int idDeck, bool isDie);
 
     void setName(std::string newName);
 
@@ -29,9 +31,11 @@ public:
 
     void setAttack(int Newattack);
 
+    bool GetIsDie();
 
     void setDefense(int Newdefense);
 
+    void PokemonAttacked();
 
     void setShield(int Newshield);
 
@@ -48,6 +52,8 @@ public:
     int GetShield();
 
     int GetId();
+
+    int GetHp();
 
 
 };
